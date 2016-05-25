@@ -1,0 +1,60 @@
+header, main, footer {
+    padding-left: 250px;
+}
+
+main {
+    /* Height of page less header less waterfall */
+    min-height:calc(100% - 64px - 100px);
+    position:relative;
+}
+
+#dropProfile li > a {
+    line-height: 64px;
+}
+
+.side-profile {
+    line-height: 20px;
+}
+
+.waterfall-main {
+    background-color: #64B5F6;
+    height: 110px;
+}
+
+.waterfall-title {
+    /*font-weight: 300;*/
+    font-size: 2.7rem;
+}
+
+.waterfall-title-panel {
+    color: white;
+    padding-left: 20%;
+}
+
+.waterfall-action-panel {
+    padding-top: 10px;
+}
+
+.siteWrapper {
+    height: 100%;
+}
+
+.oneWidget {
+    height: inherit;
+}
+
+.contentHeader {
+}
+
+.contentBody {
+    padding-bottom:33px;
+    padding: 5%;
+}
+
+.contentFooter {
+    position:absolute;
+    bottom:0;
+    height:33px;
+}
+
+

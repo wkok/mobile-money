@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="login">
+
+    <inherits name="com.wk.mobile.base.BaseLogin"/>
+
+    <!-- Resources -->
+    <public path="resources"/>
+
+
+    <!-- Overridden styles -->
+    <stylesheet src="css/login.css"/>
+
+
+    <!-- Specify the app entry point class.                         -->
+    <entry-point class='com.wk.mobile.money.client.Login'/>
+
+</module>

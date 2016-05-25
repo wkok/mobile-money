@@ -1,0 +1,33 @@
+.login_panel {
+    /*background: url("images/profileBackdrop.png");*/
+    background-color: #2196F3;
+    background-size: 100%;
+    padding: 0 !important;
+    padding-top: 40% !important;
+}
+
+.login_fieldPanel {
+    background: white;
+    padding: 6%;
+}
+
+.login_imgProfile {
+    margin-top: -120px;
+    width: 40%;
+    margin-left: 30%;
+    border: 5px solid #fff;
+}
+
+.login_rowAction {
+    margin-top: 1px;
+}
+
+.login_row {
+    padding: 5%;
+}
+
+.login_rowRegister {
+    white-space: nowrap;
+    margin-top: 4%;
+}
+
